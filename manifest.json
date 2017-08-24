@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Translator",
+  "description": "",
+  "version": "1.0",
+
+  "icons": {
+    "32": "img/32x32.png",
+    "48": "img/48x48.png",
+    "128": "img/128x128.png"
+  },
+
+  "browser_action": {
+    "default_title": "Open translator",
+    "default_icon": "img/32x32.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "http://translate.yandex.net/*"
+  ]
+}
