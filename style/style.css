@@ -1,0 +1,14 @@
+input {
+    font-size:30px;
+}
+
+p {
+    font-size:24px;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+
+pre {
+    font-size:18px;
+}
